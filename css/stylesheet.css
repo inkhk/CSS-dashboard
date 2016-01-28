@@ -112,6 +112,9 @@ li img:hover {
 
 #announcement-btn .glyphicon {
     color: #fe7f13;
+}
+
+.pagebtn {
     border: 1px solid #e9e9e9;
     width: 25px;
     height: 25px;
@@ -139,6 +142,49 @@ li img:hover {
 
 #task {
     border-bottom: 1px solid #e9e9e9;
+}
+
+#task ul {
+    margin-left: -30px;
+}
+
+#task ul li {
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#task .task-txt {
+    padding-left: 15px;
+    color: #208ce3;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-tasks {
+    color: #208ce3;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    float: right;
+    width: 55px;
+    text-align: center;
+}
+
+.btn-tasks span {
+    color: #208ce3;
+    padding-right: 4px;
+    font-size: 1em;
+}
+
+.countcircle {
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #32cc66;
+    display: inline-block;
+    text-align: center;
 }
 
 #activity {
@@ -217,7 +263,14 @@ li img:hover {
     height: 180px;
     width: 27%;
     margin: 27px 34px;
+    position: relative;
 }
+
+.photobox img {
+    position: absolute;
+}
+
+.photobox promo1 {}
 
 footer {
     margin-top: 50px;
