@@ -6,11 +6,23 @@ body {
 #top-header {
     background-color: #208ce3;
     width: 100%;
-    height: 30px;
+    height: 60px;
+    color: #fff;
+}
+
+#top-header ul li {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
 ul {
     list-style-type: none;
+}
+
+#nav-bar {
+    text-align: center;
 }
 
 nav ul {
@@ -18,11 +30,13 @@ nav ul {
     background-color: #134670;
     width: 100%;
     height: auto;
+    display: inline-block
 }
 
-nav ul>li {
+nav ul li {
     display: inline-block;
     padding: 2em;
+    margin: 0 auto;
 }
 
 li img:hover {
@@ -121,6 +135,7 @@ li img:hover {
     border-radius: 25px;
     display: inline-block;
     text-align: center;
+    cursor: pointer;
 }
 
 .right-container {
@@ -187,6 +202,32 @@ li img:hover {
     text-align: center;
 }
 
+#recommendation ul li {
+    margin-left: -30px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+}
+
+#recommendation ul li img {
+    float: left;
+    clear: both;
+}
+
+#recommendation ul li p {
+    display: inline-block;
+    color: #777777;
+}
+
+.rec-txt {
+    margin-top: -10px;
+    margin-left: 27px;
+}
+
+#recommendation ul li span {
+    font-size: 10px;
+    color: #777777;
+}
+
 #activity {
     color: #cecece;
     border-bottom: 1px solid #e5e5e5;
@@ -244,9 +285,10 @@ li img:hover {
     color: #fff;
     background-color: #208ce3;
     height: 130px;
+    position: relative;
 }
 
-#slider-txt>p {
+#slider-txt > p {
     font-size: 13px;
 }
 
@@ -262,7 +304,7 @@ li img:hover {
     border-radius: 5px;
     height: 180px;
     width: 27%;
-    margin: 27px 34px;
+    margin: 27px 20px;
     position: relative;
 }
 
@@ -270,12 +312,32 @@ li img:hover {
     position: absolute;
 }
 
-.photobox promo1 {}
-
 footer {
     margin-top: 50px;
     background-color: #f5f5f5;
     width: 100%;
     height: 50px;
     border-top: 1px solid #e5e5e5;
+    color: #999999;
+    font-weight: 500;
+}
+
+#left-footer,
+#mid-footer {
+    padding-top: 12px;
+    border-right: 1px solid #e5e5e5;
+}
+
+#left-footer span {
+    padding: 10px;
+}
+
+#right-footer {
+    padding-top: 12px;
+    text-align: center;
+}
+
+#mid-footer span,
+#right-footer span {
+    color: #208ce3;
 }
