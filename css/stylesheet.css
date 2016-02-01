@@ -204,8 +204,10 @@ li img:hover {
 
 #recommendation ul li {
     margin-left: -30px;
+   padding-bottom :18px;
     border-bottom: 1px solid #e5e5e5;
     padding: 10px 0;
+    height:50px;
 }
 
 #recommendation ul li img {
@@ -216,10 +218,11 @@ li img:hover {
 #recommendation ul li p {
     display: inline-block;
     color: #777777;
+    width:300px;
 }
 
 .rec-txt {
-    margin-top: -10px;
+    margin-top: -30px;
     margin-left: 27px;
 }
 
