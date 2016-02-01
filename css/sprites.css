@@ -1,0 +1,123 @@
+.Icon_Analytics, .Icon_Customers, .Icon_Messages, .Icon_PageCreator, .Icon_Promotions, .Icon_Dashboard, .Icon_Analytics_hover, .Icon_Customers_hover, .Icon_dashboard_hover, .Icon_Messages_hover, .Icon_PageCreator_hover, .Icon_Promotions_hover, .facebook_logo, .foursquare_logo, .google_logo, .twitter_logo, .article_icon, .checklist_icon, .tip_icon{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.Icon_Analytics{
+	background-position: -6px -344px ;
+	width: 42px;
+	height: 50px;
+}
+
+.Icon_Customers{
+	background-position: -2px -282px ;
+	width: 62px;
+	height: 42px;
+}
+
+.Icon_Messages{
+	background-position: -3px -78px ;
+	width: 57px;
+	height: 48px;
+}
+
+.Icon_PageCreator{
+	background-position: -8px -146px ;
+	width: 45px;
+	height: 50px;
+}
+
+.Icon_Promotions{
+	background-position: -4px -223px ;
+	width: 50px;
+	height: 50px;
+}
+
+.Icon_Dashboard{
+	background-position: -2px 0;
+	width: 58px;
+	height: 58px;
+}
+
+.Icon_Analytics:hover{
+	background-position: -77px -345px ;
+	width: 42px;
+	height: 50px;
+}
+
+.Icon_Customers:hover{
+	background-position: -73px -282px ;
+	width: 62px;
+	height: 42px;
+}
+
+.Icon_Dashboard:hover{
+	background-position: -70px 0;
+	width: 58px;
+	height: 58px;
+}
+
+.Icon_Messages:hover{
+	background-position: -72px -80px ;
+	width: 57px;
+	height: 48px;
+}
+
+.Icon_PageCreator:hover{
+	background-position: -76px -153px ;
+	width: 45px;
+	height: 50px;
+}
+
+.Icon_Promotions:hover{
+	background-position: -75px -228px ;
+	width: 50px;
+	height: 50px;
+}
+
+.facebook_logo{
+	background-position: -149px -60px ;
+	width: 70px;
+	height: 16px;
+	display: inline-block;
+}
+
+.foursquare_logo{
+	background-position: -147px -118px ;
+	width: 79px;
+	height: 16px;
+		display: inline-block;
+}
+
+.google_logo{
+	background-position: -148px -148px ;
+	width: 62px;
+	height: 16px;
+		display: inline-block;
+}
+
+.twitter_logo{
+	background-position: -150px -87px ;
+	width: 54px;
+	height: 16px;
+		display: inline-block;
+}
+
+.article_icon{
+	background-position: -166px -182px ;
+	width: 19px;
+	height: 23px;
+}
+
+.checklist_icon{
+	background-position: -165px -214px ;
+	width: 22px;
+	height: 20px;
+}
+
+.tip_icon{
+	padding-top: 10px;
+	background-position: -166px -245px ;
+	width: 14px;
+	height: 23px;
+}
+
